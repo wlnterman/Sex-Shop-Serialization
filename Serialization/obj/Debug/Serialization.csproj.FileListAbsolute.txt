@@ -1,0 +1,16 @@
+c:\users\admin\documents\visual studio 2015\Projects\Serialization\Serialization\bin\Debug\Serialization.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\bin\Debug\Serialization.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\bin\Debug\Serialization.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization_MarkupCompile.lref
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization.g.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\Serialization.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\View\ProductView.g.cs
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Serialization\Serialization\obj\Debug\View\ProductView.baml
