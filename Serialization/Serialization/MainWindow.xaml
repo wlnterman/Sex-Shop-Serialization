@@ -1,0 +1,318 @@
+﻿<Window x:Class="Serialization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Serialization"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="440" Width="825">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Add" 
+                Grid.Column="1"
+                Padding="10, 5"
+                Margin="20"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Click="Button_Click"/>
+        <ListBox x:Name="listbox" Padding="20"
+                 Margin="10"
+                 >
+            <ListBox.Background>
+                <ImageBrush ImageSource="img/есть-два-стула-3.jpg"/>
+            </ListBox.Background>
+        </ListBox>
+
+        <Label x:Name="name"
+               Grid.Column="1"
+               Content="Назв."
+               Margin="25,10,30,30" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="nameread"
+                 Grid.Column="1"
+                 Margin="65,10,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+        <Label x:Name="pricee"
+               Grid.Column="1"
+               Content="Цена"
+               Margin="135,10,30,30" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="priceeread"
+                 Grid.Column="1"
+                 Margin="180,10,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+        <Label x:Name="color"
+               Grid.Column="1"
+               Content="Цвет"
+               Margin="25,40,30,30" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <ComboBox x:Name="colorread"
+                 Grid.Column="1"
+                 Margin="65,40,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 SelectedIndex="1" 
+                 SelectedValuePath="1"
+                 >
+            <ListBoxItem Content="Gold"/>
+            <ListBoxItem Content="Silver"/>
+            <ListBoxItem Content="Pink"/>
+        </ComboBox>
+        <Label x:Name="sexx"
+               Grid.Column="1"
+               Content="Пол"
+               Margin="135,40,30,30" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <ComboBox x:Name="sexxread"
+                 Grid.Column="1"
+                 Margin="180,40,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 SelectedIndex="0" 
+                 SelectedValuePath="0"
+                 >
+            <ComboBoxItem Content="Man"/>
+            <ComboBoxItem Content="Woman"/>
+            <ComboBoxItem Content="Unisex"/>
+        </ComboBox>
+
+        <RadioButton x:Name="Balls"
+                     Grid.Column="1"
+                     Content="Анальные бусы"
+                     Margin="10,100,10,10" 
+                     VerticalAlignment="Top" 
+                     HorizontalAlignment="Left" IsChecked="True"
+                     />
+        <Label x:Name="Ballcount"
+               Grid.Column="1"
+               Content="Шаров"
+               Margin="130,95,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="Ballread"
+                 Grid.Column="1"
+                 Margin="180,95,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+        
+        <RadioButton x:Name="Plug"
+                     Grid.Column="1"
+                     Content="Анальная пробка"
+                     Margin="10,130,10,10" 
+                     VerticalAlignment="Top" 
+                     HorizontalAlignment="Left"
+                     />
+        <Label x:Name="height"
+               Grid.Column="1"
+               Content="Высота"
+               Margin="130,125,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="heightread"
+                 Grid.Column="1"
+                 Margin="180,125,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+        <Label x:Name="tail"
+               Grid.Column="1"
+               Content="Вставка"
+               Margin="130,155,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <ComboBox x:Name="tailread"
+                 Grid.Column="1"
+                 Margin="180,155,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 SelectedIndex="0" 
+                 SelectedValuePath="0"
+                 >
+            <ComboBoxItem Content="Пушистый хвост"/>
+            <ComboBoxItem Content="Камень"/>
+            <ComboBoxItem Content="Кольцо"/>
+        </ComboBox>
+
+        <RadioButton x:Name="Dildo"
+                     Grid.Column="1"
+                     Content="Фалоиммитатор"
+                     Margin="10,190,10,10" 
+                     VerticalAlignment="Top" 
+                     HorizontalAlignment="Left"
+                     />
+        <Label x:Name="size"
+               Grid.Column="1"
+               Content="Высота"
+               Margin="130,185,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="sizeread"
+                 Grid.Column="1"
+                 Margin="180,185,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+
+        <RadioButton x:Name="Lubricant"
+                     Grid.Column="1"
+                     Content="Лубрикант"
+                     Margin="10,220,10,10" 
+                     VerticalAlignment="Top" 
+                     HorizontalAlignment="Left"
+                     />
+        <Label x:Name="effekt"
+               Grid.Column="1"
+               Content="Эффект"
+               Margin="130,215,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="effektread"
+                 Grid.Column="1"
+                 Margin="180,215,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+
+        <RadioButton x:Name="Strapon"
+                     Grid.Column="1"
+                     Content="Страпон"
+                     Margin="10,250,10,10" 
+                     VerticalAlignment="Top" 
+                     HorizontalAlignment="Left"
+                     />
+        <Label x:Name="heght"
+               Grid.Column="1"
+               Content="Высота"
+               Margin="130,245,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="heghtread"
+                 Grid.Column="1"
+                 Margin="180,245,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+        <Label x:Name="selfst"
+               Grid.Column="1"
+               Content="Самостимуляция"
+               Margin="80,275,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <ComboBox x:Name="taread"
+                 Grid.Column="1"
+                 Margin="180,275,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 SelectedIndex="0" 
+                 SelectedValuePath="0"
+                 >
+            <ComboBoxItem Content="Нет"/>
+            <ComboBoxItem Content="Маленький страпон"/>
+            <ComboBoxItem Content="Большой страпон"/>
+        </ComboBox>
+
+        <RadioButton x:Name="Vibrator"
+                     Grid.Column="1"
+                     Content="Вибратор"
+                     Margin="10,310,10,10" 
+                     VerticalAlignment="Top" 
+                     HorizontalAlignment="Left"
+                     />
+        <Label x:Name="Frequency"
+               Grid.Column="1"
+               Content="Интенсивность"
+               Margin="90,305,25,25" 
+               VerticalAlignment="Top" 
+               HorizontalAlignment="Left"
+               />
+        <TextBox x:Name="Frequencyread"
+                 Grid.Column="1"
+                 Margin="180,305,0,0" 
+                 Width="60" 
+                 Height="25" 
+                 HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 />
+
+        <ComboBox x:Name="ser" 
+                  Grid.Column="1" 
+                  Margin="10,10,20,25" 
+                  Height="25" 
+                  Width="100" 
+                  SelectedIndex="0" 
+                  SelectedValuePath="0" 
+                  VerticalAlignment="Bottom" 
+                  HorizontalAlignment="Left">
+            <ComboBoxItem Content="Json"/>
+            <ComboBoxItem Content="Binary"/>
+            <ComboBoxItem Content="Xml"/>
+        </ComboBox>
+        <Button Content="Add" 
+                Grid.Column="1"
+                Padding="10, 5"
+                Margin="20"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Click="Button_Click"/>
+        <Button Content="DeSerrialize" 
+                Grid.Column="1"
+                Padding="10, 5"
+                Margin="10,10,80,5"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Click="Button_Click3"
+                Width="70" Height="30"/>
+        <Button Content="Serrialize" 
+                Grid.Column="1"
+                Padding="10, 5"
+                Margin="20,20,80,40"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Click="Button_Click2" Width="70"/>
+    </Grid>
+</Window>
