@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product xsi:type="Dildo">
+    <Sex>Woman</Sex>
+    <Name>Елдак</Name>
+    <Price>40</Price>
+    <Color>
+      <A>255</A>
+      <R>255</R>
+      <G>215</G>
+      <B>0</B>
+      <ScA>1</ScA>
+      <ScR>1</ScR>
+      <ScG>0.6795425</ScG>
+      <ScB>0</ScB>
+    </Color>
+    <Colortobytes>/9cA</Colortobytes>
+    <Size>30</Size>
+  </Product>
+  <Product xsi:type="Lubricant">
+    <Sex>Woman</Sex>
+    <Name>Елдак</Name>
+    <Price>40</Price>
+    <Effect>54</Effect>
+  </Product>
+</ArrayOfProduct>
